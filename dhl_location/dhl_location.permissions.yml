@@ -1,0 +1,5 @@
+administer dhl api:
+  title: 'Administer DHL API'
+  description: 'Administer API key and endpoint'
+  restrict access: true
+

@@ -1,0 +1,8 @@
+services:
+  dhl_location.api_manager:
+    class: Drupal\dhl_location\DhlApiManager
+    arguments:
+      - '@http_client'
+      - '@config.factory'
+      - '@logger.factory'
+      - '@key.repository'

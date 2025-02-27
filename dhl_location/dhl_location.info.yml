@@ -1,0 +1,8 @@
+name: DHL Location Finder
+type: module
+description: 'Provides functionality for handling postal addresses'
+package: DHL
+core_version_requirement: ^11
+dependencies:
+  - drupal:field
+  - drupal:key

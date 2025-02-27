@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Contains DHL Location module functionality.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function dhl_location_theme() {
+  return [
+    'dhl_location_results' => [
+      'variables' => [
+        'items' => NULL,
+      ],
+      'template' => 'dhl-location-results',
+    ],
+  ];
+}

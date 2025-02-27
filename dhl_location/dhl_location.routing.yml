@@ -1,0 +1,15 @@
+dhl_location.settings_form:
+  path: '/admin/config/dhl-api'
+  defaults:
+    _form: '\Drupal\dhl_location\Form\DhlApiConfigForm'
+    _title: 'Configure DHL API'
+  requirements:
+    _permission: 'administer dhl api'
+  
+dhl_location.search:
+  path: '/find-location'
+  defaults:
+    _controller: '\Drupal\dhl_location\Controller\DhlSearchController::searchForLocation'
+    _title: 'Search for DHL locations'
+  requirements:
+    _access: 'TRUE'
