@@ -10,4 +10,4 @@ Set the API key and save.
 
 Select the country, enter the city and postal code. Filtered results are separated by line.
 
-Results contain only locations with odd numbers in the street address. Locations closed on weekends are also filtered out.
+Results contain only locations without odd numbers in the street address. Locations closed on weekends are also filtered out.
